@@ -1,4 +1,4 @@
-# Install script for directory: /home/brickmaster/projects/autocppilot/build/_deps/pico_sdk-src/src/rp2040/hardware_structs
+# Install script for directory: /home/brickmaster/.pico-sdk/sdk/1.5.1/src/rp2040/hardware_structs
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -30,5 +30,10 @@ endif()
 # Is this installation the result of a crosscompile?
 if(NOT DEFINED CMAKE_CROSSCOMPILING)
   set(CMAKE_CROSSCOMPILING "TRUE")
+endif()
+
+# Set default install directory permissions.
+if(NOT DEFINED CMAKE_OBJDUMP)
+  set(CMAKE_OBJDUMP "/home/brickmaster/.pico-sdk/toolchain/13_2_Rel1/bin/arm-none-eabi-objdump")
 endif()
 

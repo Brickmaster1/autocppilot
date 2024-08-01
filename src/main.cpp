@@ -4,7 +4,7 @@
 int main() {
     stdio_init_all();
     while (true) {
-        std::cout << "Hello, world!" << std::endl;
+        std::cout << "Test" << std::endl;
         sleep_ms(1000);
     }
 }
